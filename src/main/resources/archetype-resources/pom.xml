@@ -5,7 +5,7 @@
     <artifactId>${artifactId}</artifactId>
     <packaging>war</packaging>
     <version>${version}</version>
-    <name>springapp</name>
+    <name>${artifactId}</name>
     <url>http://maven.apache.org</url>
 	
     <properties>

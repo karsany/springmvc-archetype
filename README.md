@@ -1,7 +1,7 @@
 Spring MVC archetype for Maven
 ==============================
 
-This is a simple archetype for generating a new Spring startner project.
+This is a simple archetype for generating a new Spring starter project.
 
 Installation and usage
 ----------------------

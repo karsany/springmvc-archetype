@@ -8,9 +8,12 @@ Installation and usage
 
   1. Grab the source from GitHub.
   2. Enter the following command in the springmvc-archetype folder:
-    mvn install
+
+	mvn install
+  
   3. Enter the following command where you want to create your new project:
-    mvn archetype:generate -DarchetypeCatalog=local
+  
+	mvn archetype:generate -DarchetypeCatalog=local
 	
 
 Contact

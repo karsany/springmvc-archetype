@@ -1,0 +1,34 @@
+#set( $symbol_pound = '#' )
+#set( $symbol_dollar = '$' )
+#set( $symbol_escape = '\' )
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN" "http://tuckey.org/res/dtds/urlrewrite3.1.dtd">
+<urlrewrite default-match-type="wildcard">
+    <rule>
+        <from>/</from>
+        <to>/app/</to>
+    </rule>
+
+    <rule>
+        <from>/style/**</from>
+        <to>/style/${symbol_dollar}1</to>
+    </rule>
+
+    <rule>
+        <from>/image/**</from>
+        <to>/image/${symbol_dollar}1</to>
+    </rule>
+    <rule>
+        <from>/javascript/**</from>
+        <to>/javascript/${symbol_dollar}1</to>
+    </rule>
+
+    <rule>
+        <from>/**</from>
+        <to>/app/${symbol_dollar}1</to>
+    </rule>
+    <outbound-rule>
+        <from>/app/**</from>
+        <to>/${symbol_dollar}1</to>
+    </outbound-rule>
+</urlrewrite>

@@ -33,7 +33,11 @@
     <!-- Use @Component annotations for bean definitions -->
     <context:component-scan base-package="${groupId}.model"/>
 
-    <!-- DataSource -->
+    <beans:bean name="encodingFilter" class="org.springframework.web.filter.CharacterEncodingFilter">
+        <beans:property name="encoding" value="UTF-8" />
+    </beans:bean>
+
+	<!-- DataSource -->
     <!--
     <beans:bean id="mainDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <beans:property name="driverClassName" value="oracle.jdbc.OracleDriver" />
@@ -42,6 +46,5 @@
         <beans:property name="password" value="tiger" />
     </beans:bean>
     -->
-
 
 </beans:beans>

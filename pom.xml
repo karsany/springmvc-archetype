@@ -4,7 +4,7 @@
 
   <groupId>hu.karsany.maven</groupId>
   <artifactId>springmvc-archetype</artifactId>
-  <version>1.0-beta2</version>
+  <version>1.0-beta3</version>
   <packaging>maven-archetype</packaging>
 
   <name>springmvc-archetype</name>

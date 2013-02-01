@@ -24,10 +24,7 @@ Features
 		mvn deploy
 		java -jar target/app.war
 
-Future plans
-------------
-
-   *  Using Apache Tiles.
+   2. Uses Apache Tiles 3 against includes in JSP.
 		
 Contact
 -------

@@ -23,8 +23,8 @@ public final class App {
     }
 
     public static void main(String[] args) {
-        System.setProperty("dqmon-standalone", "true");
-        server = new Server(Integer.parseInt(System.getProperty("port", "8080")));
+        System.setProperty("app-standalone", "true");
+        server = new Server(Integer.parseInt(System.getProperty("port", "81")));
 
         ProtectionDomain domain = App.class.getProtectionDomain();
         URL location = domain.getCodeSource().getLocation();

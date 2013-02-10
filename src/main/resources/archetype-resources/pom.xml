@@ -34,12 +34,6 @@
             <version>${jettyVersion}</version>
         </dependency>
 
-        <dependency>
-            <groupId>hu.karsany.dqmon</groupId>
-            <artifactId>dqmon-generator</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-
         <!-- JDBC driver, eg. ojdbc -->
         <!--
 			<dependency>

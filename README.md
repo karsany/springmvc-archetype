@@ -15,16 +15,15 @@ Installation and usage
   
 		mvn archetype:generate -DarchetypeCatalog=local
 	
-Features
---------
+Runnable war file generation
+----------------------------
 
-   1. Runnable war file generation. Your application can be run without
-      servlet container. The war file contains an embedded Jetty. Usage:
+Your application can be run without servlet container. The war file
+contains an embedded Jetty. Usage:
 	  
-		mvn deploy
+		mvn package
 		java -jar target/app.war
 
-   2. Uses Apache Tiles 3 against includes in JSP.
 		
 Contact
 -------

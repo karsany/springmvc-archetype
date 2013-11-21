@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:beans xmlns:mvc="http://www.springframework.org/schema/mvc"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:b="http://www.springframework.org/schema/beans"
+         xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Enables the Spring MVC @Controller programming model -->
+    <mvc:annotation-driven/>
+
+    <b:bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <b:property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <b:property name="prefix" value="/WEB-INF/view/"/>
+        <b:property name="suffix" value=".jsp"/>
+    </b:bean>
+
+    <!-- Imports user-defined @Controller beans that process client requests -->
+    <b:import resource="spring-controller.xml"/>
+    <!-- <b:import resource="spring-security.xml"/> -->
+    <!-- <b:import resource="spring-beans.xml"/> -->
+
+</b:beans>

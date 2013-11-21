@@ -3,6 +3,7 @@
 <%@taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
+<%@ taglib prefix="z" tagdir="/WEB-INF/tags" %>
 <fmt:setBundle basename="messages"/>
 <fmt:setLocale value="hu-HU"/>
 <fmt:requestEncoding value="UTF-8"/>

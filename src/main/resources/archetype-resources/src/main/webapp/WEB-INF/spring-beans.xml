@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- run at init -->
+	<!-- <b:bean name="starter" init-method="initMapper" class="${package}.InitMapper" lazy-init="false"/> -->	   
+	   
+	<!-- Examples DataSource -->
+	<!--
+		<bean id="mainDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@localhost:1521:orcl" />
+		<property name="username" value="scott" />
+		<property name="password" value="tiger" />
+		</bean>
+	-->
+	<!--
+		<bean id="mainDataSource" class="oracle.jdbc.pool.OracleDataSource" destroy-method="close">
+		<property name="connectionCachingEnabled" value="true"/>
+		<property name="URL" value="jdbc:oracle:thin:@host:port:orcl"/>
+		<property name="user" value=""/>
+		<property name="password" value=""/>
+		<property name="connectionCacheProperties">
+		<value>
+		MinLimit:3
+		MaxLimit:10
+		InitialLimit:3
+		ConnectionWaitTimeout:10
+		InactivityTimeout:10
+		ValidateConnection:true
+		</value>
+		</property>
+		</bean>
+	-->
+
+
+</beans>

@@ -10,7 +10,7 @@
   <name>springmvc-archetype</name>
   
   <scm>
-	<connection>scm:git:ssh://git@github.com:karsany/springmvc-archetype.git</connection>
+	<connection>scm:git:ssh://git@github.com/karsany/springmvc-archetype.git</connection>
 	<tag>v1.2.0-RELEASE</tag>
   </scm>
   

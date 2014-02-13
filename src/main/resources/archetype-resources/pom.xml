@@ -10,7 +10,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <org.springframework-version>3.2.5.RELEASE</org.springframework-version>
+        <org.springframework-version>4.0.0.RELEASE</org.springframework-version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.javaVersion>1.6</project.build.javaVersion>
         <jettyVersion>8.1.8.v20121106</jettyVersion>
@@ -45,17 +45,17 @@
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-config</artifactId>
-            <version>3.2.0.CI-SNAPSHOT</version>
+            <version>3.2.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-web</artifactId>
-            <version>3.2.0.CI-SNAPSHOT</version>
+            <version>3.2.0.RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.security</groupId>
             <artifactId>spring-security-taglibs</artifactId>
-            <version>3.2.0.CI-SNAPSHOT</version>
+            <version>3.2.0.RELEASE</version>
         </dependency>
         -->
 
@@ -196,14 +196,5 @@
         </resources>
 
     </build>
-
-    <!--
-    <repositories>
-        <repository>
-            <id>spring-snasphot</id>
-            <url>http://repo.springsource.org/libs-snapshot</url>
-        </repository>
-    </repositories>
-    -->
 
 </project>

@@ -8,6 +8,12 @@
   <packaging>maven-archetype</packaging>
 
   <name>springmvc-archetype</name>
+  
+  <scm>
+	<connection>scm:git:ssh://git@github.com:karsany/springmvc-archetype.git</connection>
+	<tag>HEAD</tag>
+  </scm>
+  
 
   <build>
     <extensions>

@@ -4,14 +4,14 @@
 
   <groupId>hu.karsany.maven</groupId>
   <artifactId>springmvc-archetype</artifactId>
-  <version>1.2.0-RELEASE</version>
+  <version>1.2.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>springmvc-archetype</name>
   
   <scm>
 	<connection>scm:git:ssh://git@github.com/karsany/springmvc-archetype.git</connection>
-	<tag>v1.2.0-RELEASE</tag>
+	<tag>HEAD</tag>
   </scm>
   
 
